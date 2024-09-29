@@ -147,8 +147,8 @@ body{
     padding-bottom: 15px;
     margin: 0 25px;
 }
-.link:hover, .active{
-    border-bottom: 2px solid var(--kappel);
+.link:hover{
+  color: var(--kappel);
 }
 .nav-button .btn{
     width: 130px;
@@ -193,13 +193,14 @@ body{
     flex-direction: column;
     transition: .5s ease-in-out;
 }
-.register-container{
+.register-container {
     position: absolute;
     right: -520px;
     width: 500px;
     display: flex;
     flex-direction: column;
     transition: .5s ease-in-out;
+    margin-bottom: 8%;
 }
 .top span{
     color: black;
@@ -358,5 +359,5 @@ header{
     padding-bottom: 15px;
     margin: 0 14px;
     position: relative;
-    left: 130%;
+   
 }

@@ -2200,6 +2200,18 @@ color-mix(in srgb, var(--accent-color), transparent 75%) 52%);
     right: 15%;
 }
 
+.whats-btn{
+  position: fixed;
+    right: 1%;
+    font-size: 29px;
+    background: var(--accent-color);
+    color: white;
+    padding: 12px 17px;
+    border-radius: 46%;
+    bottom: 4%;
+    z-index: 999;
+}
+
 
 @media (max-width: 769px) {
   #vid-course2 {
@@ -2233,5 +2245,12 @@ color-mix(in srgb, var(--accent-color), transparent 75%) 52%);
     bottom: 0px;
     right: 0%;
 }
-
+.timer-countdown {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid var(--accent-color);
+  padding: 11px;
+  border-radius: 8px 0px;
+}
 }

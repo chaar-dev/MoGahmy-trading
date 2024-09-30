@@ -2209,6 +2209,18 @@
     left: 15%;
 }
 
+.whats-btn{
+  position: fixed;
+    right: 1%;
+    font-size: 29px;
+    background: var(--accent-color);
+    color: white;
+    padding: 12px 17px;
+    border-radius: 46%;
+    bottom: 4%;
+    z-index: 999;
+}
+
 @media (max-width: 769px) {
   .events .card-body {
     width: 139%;

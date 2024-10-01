@@ -507,7 +507,7 @@ h6 {
     font-weight: 500;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -2301,6 +2301,10 @@ color-mix(in srgb, var(--accent-color), transparent 75%) 52%);
   padding: 25px 0;
   margin-bottom: 5%;
 }
+.mobile-nav-active .navmenu>ul {
+  display: block;
+  height: 31%;
+}
 }
 
 
@@ -2328,5 +2332,9 @@ color-mix(in srgb, var(--accent-color), transparent 75%) 52%);
 .counts {
   padding: 25px 0;
   margin-bottom: 11%;
+}
+.mobile-nav-active .navmenu>ul {
+  display: block;
+  height: 41%;
 }
 }

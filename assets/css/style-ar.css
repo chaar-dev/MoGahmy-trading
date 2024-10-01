@@ -362,11 +362,11 @@
   /* Navmenu - Desktop */
   @media (min-width: 1200px) {
  
-        .navmenu {
-            padding: 0;
-            position: relative;
-            left: 24%;
-        }
+    .navmenu {
+      padding: 0;
+      position: relative;
+      left: 10%;
+  }
     
   
     .navmenu ul {
@@ -2288,6 +2288,9 @@
     bottom: 4%;
     z-index: 999;
 }
+#log{
+  display: none;
+}
 
 @media (max-width: 769px) {
   .events .card-body {
@@ -2355,8 +2358,23 @@
     bottom: 0px;
     left: 0%;
 }
-.mobile-nav-active .navmenu>ul {
-  display: block;
-  height: 41%;
+#log2{
+  display: none;
 }
+#log{
+  display: block;
+}
+.header .btn-getstarted {
+  order: 2;
+  margin: 0 82px 0 0;
+  padding: 6;
+  text-align: center;
+  margin-bottom: 2%;
+  position: relative;
+  left: 13%;
+}
+  .mobile-nav-active .navmenu>ul {
+      display: block;
+      height: 51%;
+  }
 }

@@ -363,7 +363,7 @@ h6 {
     .navmenu {
         padding: 0;
         position: relative;
-        right: 13%;
+        right: 7%;
     }
 
 
@@ -2300,6 +2300,14 @@ color-mix(in srgb, var(--accent-color), transparent 75%) 52%);
     right: 6px;
 }
 
+#remember-me{
+  position: relative;
+  right: 35%;
+}
+#remember-me2{
+  position: relative;
+  right: 16%;
+}
 
 @media (max-width: 769px) {
   #vid-course2 {
